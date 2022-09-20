@@ -1,7 +1,5 @@
 # JAVASCRIPT BOOTCAMP
-
-This repository is exclusive to javascript bootcamp, organized at GDSC TIU. Maintained by Gourav Ghosal
-
+This repository is exclusive to javascript bootcamp, organized at GDSC TIU.
 #### An introductory resource by [Gourav Ghosal](https://github.com/gourav221b), Chapter Lead, Google Developer Students Club, Techno India University.
 
 ## Table of Contents
@@ -9,9 +7,9 @@ This repository is exclusive to javascript bootcamp, organized at GDSC TIU. Main
 ### 1. Basic Javascript
 <br />
 
-   - A long long time ago.....
+   - [A long long time ago.....](01.DataType/LongTimeAgo.md)
 
-   - Data Types
+   - [Data Types](01.DataType/01.DataType.md)
    - Variables
    - Functions
    - Loops
