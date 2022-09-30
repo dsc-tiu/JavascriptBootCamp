@@ -47,8 +47,6 @@ file.setName('Renamed File');
 
 let newName = file.getName();
 console.log(newName);
-
-
 ```
 - This code snippet first prints the old file name.<br />
 

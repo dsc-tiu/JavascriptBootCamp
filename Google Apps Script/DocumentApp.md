@@ -7,13 +7,13 @@
 
 - ```DocumentApp.openById()``` is used to get a document file in Google Docs. The syntax is similar to ```DriveApp.getFileById()```<br />
 
+### <br />Code Example:
 ```JavaScript
 let id = '1VFYfiTWVTahG9G8xG9G8x2a76ejv1fiTWVTahsAM';
 
 let doc = DocumentApp.openById(id);
 let docName = doc.getName();
 console.log(docName);
-
 ```
 - This code snippet gets the document by its unique file id and then prints the document name fetched with ```getName()``` and stored in the variable ```docName```.
 
@@ -63,10 +63,8 @@ console.log(oldText);
 doc.replaceText('brilliant', 'exceptional');
 let newText = doc.getText();
 console.log(newText);
-
 ```
 - In this code snippet we are replacing every occurence of the word <em>"brilliant"</em> with <em>"exceptional"</em> using the ```replaceText()``` method.
-
 ---
 
 ## Example Exercise:
@@ -81,7 +79,6 @@ let replacements = [
 for (let replacement of replacements) {
     doc.replaceText(replacement[0],replacement[1]);
 }
-
 ```
 - In this code snippet we make multiple replacements in the document. <br/>
 
