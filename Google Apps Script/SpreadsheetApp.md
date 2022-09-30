@@ -97,3 +97,5 @@ console.log(rupeeCount + ' customers are paying with INR.');
 
 <strong>Output:</strong>  &nbsp;&nbsp; 2 customers are paying with INR.
 
+---
+## <em>We will be applying the skills learnt here in the Sum-Up Module.</em>

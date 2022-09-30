@@ -90,4 +90,5 @@ for (let replacement of replacements) {
 <br/>
 
 - Inside the for...of loop we are making the replacements in the document as per each array defined above.<br/>
-
+---
+## <em>We will be applying the skills learnt here in the Sum-Up Module.</em>
