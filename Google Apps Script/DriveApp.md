@@ -92,4 +92,4 @@ let secondCopy = file.makeCopy("GDSC");
 ```
 - This code snippet will rename the second copy of the file object and save it as "GDSC" instead of some default file name.
 ---
-## <em>We will be applying the skills learnt here in the Project Module.</em>
+## <em>We will be applying the skills learnt here in the Sum-Up Module.</em>
