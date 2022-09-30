@@ -8,3 +8,5 @@
 
 - Apps Script also uses its own functions that help you connect to Google Applications. <br />
 
+- We use the Apps Script Tool to deploy our code. The Dashboard can be found at [script.google.com](script.google.com)
+
