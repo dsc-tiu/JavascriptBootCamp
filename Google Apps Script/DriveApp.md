@@ -1,4 +1,4 @@
-# Google Drive
+# Google Drive [DriveApp]
 ## Get Files
 - Every file in Google Drive has a unique id. <br />
 - The id will be a string of characters and numbers something like: 'e514a7d3e2061ca9e3' <br />
@@ -15,7 +15,7 @@
 
 ### <br />Code Example:
 
-```
+```JavaScript
 let id = 'ac7d3e20622af72303e7bcd67a8e953189205bb6728a';
 let file = DriveApp.getFileById(id);
 let fileName = file.getName();
@@ -36,7 +36,7 @@ console.log(fileName);
 
 ### <br />Code Example:
 
-```
+```JavaScript
 let id = 'ac7d3e20622af72303e7bcd67a8e953189205bb6728a';
 let file = DriveApp.getFileById(id);
 
@@ -47,8 +47,6 @@ file.setName('Renamed File');
 
 let newName = file.getName();
 console.log(newName);
-
-
 ```
 - This code snippet first prints the old file name.<br />
 
@@ -67,7 +65,7 @@ console.log(newName);
 
 ### <br />Code Example:
 
-```
+```JavaScript
 let id = '1gJAiEKJd8NMdjI_EcI12y3iIYk3E8wokAJEOijsZcf0';
 let file = DriveApp.getFileById(id);
 
@@ -87,7 +85,7 @@ console.log(secondCopyId);
 
 ### Note: 
 - makeCopy() can take a single argument which is the name of the copy of the file.
-```
+```JavaScript
 let secondCopy = file.makeCopy("GDSC");
 ```
 - This code snippet will rename the second copy of the file object and save it as "GDSC" instead of some default file name.
