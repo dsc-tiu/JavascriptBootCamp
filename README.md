@@ -40,3 +40,18 @@ This repository is exclusive to javascript bootcamp, organized at GDSC TIU.
 ---
     
 <br />
+
+
+### 3. Google Apps Script
+<br />
+
+  - [What is Apps Script?](Google%20Apps%20Script/Intro.md)
+  - [Google Drive](Google%20Apps%20Script/DriveApp.md)
+  - [Google Docs](Google%20Apps%20Script/DocumentApp.md)
+  - [Google Sheets](Google%20Apps%20Script/SpreadsheetApp.md)
+  - [Sum-Up](Google%20Apps%20Script/Sum-Up.md)
+  
+<br />
+
+---
+
