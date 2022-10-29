@@ -10,8 +10,9 @@ This repository is exclusive to javascript bootcamp, organized at GDSC TIU.
    - [A long long time ago.....](Basic%20Javascript/01.DataType/LongTimeAgo.md)
 
    - [Data Types](Basic%20Javascript/01.DataType/01.DataType.md)
-   - Variables
-   - Functions
+   - [Variables](Basic%20Javascript/02.Variables/02.Variables.md)
+   - [Functions](Basic%20Javascript/03.Functions/03.Functions.md)
+   - [Hoisting](Basic%20Javascript/04.Hoisting/Hoisting.md)
    - Loops
    - Arrays
    - Objects
