@@ -72,39 +72,40 @@ let a = 3; // error
 
 //? 2. Redeclaring a variable with var in a different scope or block changes the value of the outer variable too. For example,
 var a = 5;
-console.log(a); // 5
+console.log('before the block', a); // 5
 {
   var a = 3;
-  console.log(a); // 3
+  console.log('in the block', a); // 3
 }
-console.log(a); // 3
+console.log('after the block', a); // 3
 
 //? Redeclaring a variable with let in a different scope or block treats that variable as a different variable. And the value of a variable outside does not change. For example,
 
 let a = 5;
-console.log(a); // 5
+console.log('before the block', a); // 5
 {
   let a = 3;
-  console.log(a); // 3
+  console.log('in the block', a); // 3
 }
-console.log(a); // 5
+console.log('after the block', a); // 5
 
 //! let Doesn't Allow Hoisting
 //? Shown Later
 
 // ---------------------------------------------------------------------------------
 // Global and Local Variables
-
-const data = 200; // gloabal variable
+var data = 200; // global variable
 
 function first() {
-  let data = 400;
+  var localData = 400;
 
   console.log(data);
+  console.log(localData);
 }
 
 function second() {
   console.log(data);
+  console.log(localData); // Will give error saying 'localData not defined'
 }
 
 first(); //calling JavaScript function
