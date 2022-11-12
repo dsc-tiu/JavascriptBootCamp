@@ -12,21 +12,40 @@ This repository is exclusive to javascript bootcamp, organized at GDSC TIU.
    - [Data Types](Basic%20Javascript/01.DataType/01.DataType.md)
    - [Variables](Basic%20Javascript/02.Variables/02.Variables.md)
    - [Functions](Basic%20Javascript/03.Functions/03.Functions.md)
-   - [Hoisting](Basic%20Javascript/04.Hoisting/Hoisting.md)
+   
    - Loops
    - Arrays
    - Objects
-   - Event Loops
    - DOM Manipulation  
    
 <br />  
 
 --- 
-    
+
+### 2. How Javascript Works
 <br />
 
+   - [Javascript Engine](How%20Javascript%20Works\How%20JavaScript%20Works.pdf)
 
-### 2. Advanced Javascript
+   - [Execution Contexts](How%20Javascript%20Works\How%20JavaScript%20Works.pdf)
+   - [Global Execution Context](How%20Javascript%20Works\How%20JavaScript%20Works.pdf)
+   - [Function Execution Context](How%20Javascript%20Works\How%20JavaScript%20Works.pdf)
+   - [Creation Phase](How%20Javascript%20Works\How%20JavaScript%20Works.pdf)
+     - The Variable Object
+       - [Hoisting](Basic%20Javascript/04.Hoisting/Hoisting.md)
+     - Scope Chan
+     - *this* Keyword
+   - [Execution Phase](How%20Javascript%20Works\How%20JavaScript%20Works.pdf)
+   - [Execution Stack](How%20Javascript%20Works\How%20JavaScript%20Works.pdf)
+   - Event Loops
+   
+<br />  
+    
+--- 
+
+<br />  
+
+### 3. Advanced Javascript
 <br />
 
   - Promises and Callbacks
@@ -43,7 +62,7 @@ This repository is exclusive to javascript bootcamp, organized at GDSC TIU.
 <br />
 
 
-### 3. Google Apps Script
+### 4. Google Apps Script
 <br />
 
   - [What is Apps Script?](Google%20Apps%20Script/Intro.md)
